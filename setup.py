@@ -1,7 +1,7 @@
 import sys, os
 from setuptools import setup, find_packages
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'pokemontcgsdk'))
-from config import __version__, __pypi_packagename__, __github_username__, __github_reponame__
+from pokemontcgsdk.config import __version__, __pypi_packagename__, __github_username__, __github_reponame__
 
 tests_require = [
     'mock',

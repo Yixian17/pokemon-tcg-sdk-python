@@ -5,7 +5,7 @@ from urllib.error import URLError, HTTPError
 from urllib.parse import urlencode
 
 class RestClient():
-    api_key = None
+    api_key = '9b9d73c3-8880-413b-9dda-ac5b15eaaef1'
 
     @classmethod
     def configure(cls, api_key):
